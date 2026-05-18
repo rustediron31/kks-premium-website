@@ -25,6 +25,8 @@ import beforeLivingRoom1 from "./assets/projects/before_living-room-1.jpg";
 import sbiOffice from "./assets/projects/sbi-office.jpg";
 import residential1 from "./assets/projects/residential-1.jpg";
 
+import logo from "./assets/logo.png";
+
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
@@ -58,9 +60,11 @@ if (loading) {
         className="text-center"
       >
 
-        <h1 className="text-5xl font-bold tracking-[10px]">
-          KKS PROJECTS
-        </h1>
+        <img
+          src={logo}
+          alt="KKS Projects"
+          className="h-12 object-contain"
+        />
 
         <p className="text-gray-500 mt-6 uppercase tracking-[6px] text-sm">
           Premium Fit-Out Solutions
