@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+::selection {
+  background: white;
+  color: black;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
