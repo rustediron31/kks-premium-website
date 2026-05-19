@@ -1,3 +1,6 @@
+
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+
 import { HiX } from "react-icons/hi";
 
 import office1 from "./assets/projects/office-1.jpg";
@@ -840,11 +843,21 @@ if (loading) {
 }
 
 <a
+  href="https://instagram.com/kks_projects"
+  target="_blank"
+  className="fixed bottom-28 right-6 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 hover:scale-110 duration-300"
+>
+  <FaInstagram />
+</a>
+
+
+
+<a
   href="https://wa.me/917208201077"
   target="_blank"
-  className="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 hover:scale-105 duration-300"
+  className="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 hover:scale-110 duration-300"
 >
-  💬
+  <FaWhatsapp />
 </a>
 
     </div>
