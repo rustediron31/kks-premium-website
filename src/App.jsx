@@ -25,7 +25,7 @@ import beforeLivingRoom1 from "./assets/projects/before_living-room-1.jpg";
 import sbiOffice from "./assets/projects/sbi-office.jpg";
 import residential1 from "./assets/projects/residential-1.jpg";
 
-import logo from "./assets/logo.png";
+import logo from "./assets/projects/logo.png";;
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
@@ -84,9 +84,11 @@ if (loading) {
       <nav className="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-2xl border-b border-white/5 shadow-[0_8px_30px_rgb(0,0,0,0.3)] shadow-2xl">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-          <h1 className="text-2xl font-bold tracking-widest">
-            KKS PROJECTS
-          </h1>
+          <img
+            src={logo}
+            alt="KKS Projects"
+            className="h-16 w-auto object-contain"
+          />
 
           <div className="hidden md:flex gap-10 text-sm uppercase tracking-wider">
             <a href="#home">Home</a>
@@ -756,9 +758,11 @@ if (loading) {
 
     <div>
 
-      <h2 className="text-3xl font-bold mb-4 tracking-widest">
-        KKS PROJECTS
-      </h2>
+      <img
+        src={logo}
+        alt="KKS Projects"
+        className="h-14 object-contain mb-4"
+      />
 
       <p className="text-gray-500 max-w-md leading-7">
         Commercial and residential fit-out solutions
