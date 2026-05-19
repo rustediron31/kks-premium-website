@@ -744,6 +744,59 @@ if (loading) {
 
     </div>
 
+    <form
+      action="https://formspree.io/f/xojbjvnq"
+      method="POST"
+      className="grid gap-6 mt-16 text-left"
+    >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Full Name"
+        required
+        className="bg-white/5 border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-white duration-300"
+      />
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number"
+        required
+        className="bg-white/5 border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-white duration-300"
+      />
+
+      <input
+        type="text"
+        name="project"
+        placeholder="Project Type"
+        className="bg-white/5 border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-white duration-300"
+      />
+
+      <input
+        type="text"
+        name="location"
+        placeholder="Project Location"
+        className="bg-white/5 border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-white duration-300"
+      />
+
+      <textarea
+        name="message"
+        placeholder="Tell us about your project"
+        rows="6"
+        required
+        className="bg-white/5 border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-white duration-300"
+      ></textarea>
+
+      <button
+        type="submit"
+        className="bg-white text-black rounded-full py-5 font-semibold hover:scale-105 duration-300"
+      >
+        Send Inquiry
+      </button>
+
+    </form>
+
   </motion.div>
 
 </section>
